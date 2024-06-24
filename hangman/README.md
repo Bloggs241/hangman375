@@ -16,9 +16,12 @@ This is part of my coursework with AiCore. In the project I will demonstrate mul
 
 ## What I Learned
 Creating functions
+Inititalising a class correctly - definining the attributes without a parameter properly.
+
 ## Installation Instructions
 
 ## Usage Instructions
+Run the program, guess a letter, have fun.
 
 ## File Structure
 

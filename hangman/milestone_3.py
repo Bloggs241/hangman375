@@ -1,5 +1,5 @@
 def check_guess(guess):
-    guess = lower(guess)
+    guess = guess.lower()
     if guess in word:
         print(f"Good guess! {guess} is in the word.")
     else:
