@@ -19,7 +19,7 @@ class Hangman:
             for i, letter in enumerate(self.word): # Enumerate creates an indexed list from arg i == index of letter, letter == letter
                 if letter == guess:
                     self.word_guessed[i] = guess # Uses index taken from enumerate
-            self.num_letters = self.num_letters - 1 # Reduce num_letters by 1
+            self.num_letters = self.num_letters - 1 # reduces number of letters by 1
         else:
             self.num_lives = self.num_lives - 1 # Reduces number of lives by 1
             print(f"Sorry, {guess} is not in the word. Try again.")
@@ -36,6 +36,10 @@ class Hangman:
             elif guess in self.list_of_guesses: #check if guess is in list_of_guesses
                 print(f"You already tried that letter!")
             else:
-                self.list_of_guesses.append(guess) #adds guess to list
                 self.check_guess(guess)
-                
+                self.list_of_guesses.append(guess) #adds guess to list
+
+
+word_list = ['keith', 'robbie', 'matthew', 'patrick', 'joanne']
+game = Hangman(word_list)
+game.ask_for_input()                
