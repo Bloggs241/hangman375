@@ -16,7 +16,10 @@ This is part of my coursework with AiCore. In the project I will demonstrate mul
 
 ## What I Learned
 Creating functions
-Inititalising a class correctly - definining the attributes without a parameter properly.
+Initalising a class correctly - defining the attributes without a parameter properly.
+Remembering to use self. within methods
+Creating an instance of a class to allow the class to run. 
+Correct use of break to break out of methods.
 
 ## Installation Instructions
 
