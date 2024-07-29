@@ -12,6 +12,9 @@ class Hangman:
         self.word_list = word_list
         self.list_of_guesses = []
 
+        print(f'The mystery word has {self.num_letters} letters.')
+        print(f'{self.word_guessed}')
+
     def check_guess(self, guess):
         guess = guess.lower() # Convert guess to lower case
         if guess in self.word:
