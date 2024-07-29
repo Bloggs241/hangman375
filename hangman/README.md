@@ -22,6 +22,7 @@ Creating an instance of a class to allow the class to run.
 Correct use of break to break out of methods.
 
 ## Installation Instructions
+None needed
 
 ## Usage Instructions
 Run the program, guess a letter, have fun.
